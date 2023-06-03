@@ -71,8 +71,8 @@ CREATE TABLE `data_receiver` (
 --
 
 INSERT INTO `data_receiver` (`Id_dr`, `Id_du`, `Name_Company`, `Document`, `Contact_Name`, `Address_1`, `Address_2`, `Department`, `City`, `Mail`, `Cell`, `Phone`, `Directory`, `Status`, `Date_Rg`) VALUES
-(10000128, 58, 'pepsico', 0, 'juanita alvarez', 'calle 12 con 11 23', 'piso 2', 'Amazonas', 'Amazonas', 'Null', 987654321, 123456789, 0, 1, '2016-12-09 21:21:10'),
-(10000131, 58, 'z comunicaciones', 0, 'fabiana parra', 'calle 9 n 10 20', 'conjunto residencial la z', 'Amazonas', 'Amazonas', 'Null', 0, 2147483647, 0, 1, '2016-12-09 21:22:38');
+(10000128, 58, 'pepsico', 0, 'juanita alvarez', 'calle 123 con 11 223', 'piso 123', 'Aragua', 'Amazonas', 'Null', 987654321, 123456789, 0, 1, '2016-12-09 21:21:10'),
+(10000131, 58, 'z comunicaciones', 0, 'fabiana parra', 'calle 9 n 10 11', 'conjunto residencial la xyz', 'Amazonas', 'Aragua', 'Null', 0, 2345678901, 0, 1, '2016-12-09 21:22:38');
 
 -- --------------------------------------------------------
 
@@ -134,9 +134,9 @@ CREATE TABLE `data_user` (
 
 INSERT INTO `data_user` (`Id_du`, `Name_Company`, `Activity`, `Contact_Name`, `Address_1`, `Address_2`, `Department`, `City`, `Mail`, `Cell`, `Phone`, `Terms`, `Identity`, `Date_Rg`) VALUES
 (62, ' Job', '12345678', 'Carolina ', 'san jose', 'Edificio 1 oficina 2', 'Amazonas', 'Amazonas', 'carolina@ibossjob.com', 12345678, 87654321, 'No', 2, '2016-12-09 21:07:03'),
-(80, 'kensu', '8000521', 'kensu miliante', 'carlos galan', 'casa 24A', 'Amazonas', 'Amazonas', 'kensumiliante@hotmail.com', 3163103577, 987654321, 'No', 2, '2016-12-09 21:13:01'),
-(81, '', '', 'anthony', 'cagua', 'ckk', 'Cundinamarca', 'cagua', 'anthony.pedron@gmail.com', 412784331185, 41278252, 'No', 1, '2016-12-11 03:29:48'),
-(82, '', '', 'juan', 'cagua', 'cagua', 'Guaviare', 'cagua', 'juan@gmail.com', 285855, 4785222, 'No', 1, '2016-12-12 03:33:21');
+(80, 'kensu', '8000521', 'kensu miliante', 'calle imaginación', 'casa 1234Abc', 'Amazonas', 'Amazonas', 'kensumiliante@hotmail.com', 3184253737, 987654321, 'No', 2, '2016-12-09 21:13:01'),
+(81, '', '', 'anthony', 'cagua', 'ckk', 'Cundinamarca', 'cagua', 'anamarian@gmail.com', 4321098765, 12345678, 'No', 1, '2016-12-11 03:29:48'),
+(82, '', '', 'juan', 'cagua', 'cagua', 'Aragua', 'cagua', 'juan@gmail.com', 123456789, 123456789, 'No', 1, '2016-12-12 03:33:21');
 
 -- --------------------------------------------------------
 
@@ -160,9 +160,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `User`, `Password`, `Nick_Name`, `Date_R`, `Date_UR`, `permiso`) VALUES
 (80, 'kensumiliante@gmail.com', 'kensu123', '', '2016-12-14 03:40:02', '0000-00-00 00:00:00', 'usuario'),
-(81, 'anthony.pedron@gmail.com', 'ciencia123', '', '2016-12-14 03:31:49', '0000-00-00 00:00:00', 'administrador'),
-(82, 'anthony', 'ciencia123', '', '2016-12-12 03:30:53', '0000-00-00 00:00:00', 'cliente'),
-(83, 'juan211@gmail.com', 'ciencia123', '', '2016-12-14 03:39:30', '0000-00-00 00:00:00', 'gerente');
+(81, 'anamarian@gmail.com', 'ciencia123', '', '2016-12-14 03:31:49', '0000-00-00 00:00:00', 'administrador'),
+(82, 'any', 'ciencia123', '', '2016-12-12 03:30:53', '0000-00-00 00:00:00', 'cliente'),
+(83, 'juan321@gmail.com', 'ciencia1234', '', '2016-12-14 03:39:30', '0000-00-00 00:00:00', 'gerente');
 
 --
 -- Índices para tablas volcadas
